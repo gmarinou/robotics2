@@ -1,0 +1,3 @@
+# parametric source file processor
+
+EXECUTE_PROCESS( COMMAND ${CMAKE_COMMAND} -E copy "@IN_PATH@/@IN_FILE@" "@OUT_PATH@/@OUT_FILE@" )
